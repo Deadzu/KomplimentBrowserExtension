@@ -1,0 +1,20 @@
+{
+    "name": "Selvtillidbooster",
+    "version": "1.0",
+    "description": "Extension som giver dig selvtillid!",
+    "permissions": [
+        "activeTab",
+        "notifications",
+        "alarms"
+        
+                    ],
+    "browser_action": {
+      "default_popup": "test.html",
+      "default_icon": {
+        "16": "img/smiley.jpg",
+        "32": "img/smiley.jpg",
+        "48": "img/smiley.jpg"
+      }
+    },
+    "manifest_version": 2
+  }

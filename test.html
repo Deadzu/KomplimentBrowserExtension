@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Compliment Generator</title>
+  </head>
+  <body>
+    <h1>Random Compliment Generator</h1>
+    <button id="complimentButton">Generate Compliment</button>
+    <p id="complimentDisplay"></p>
+
+    <script>
+      // Array of compliments
+      const compliments = [
+        "You're amazing!",
+        "You're a ray of sunshine!",
+        "You're exceptionally talented!",
+        "You're one of a kind!",
+        "You make the world a better place!",
+        "You're simply the best!",
+        "You're a true inspiration!",
+        "You're so kind-hearted!",
+      ];
+
+      // Function to generate a random compliment
+      function generateRandomCompliment() {
+        const randomIndex = Math.floor(Math.random() * compliments.length);
+        return compliments[randomIndex];
+      }
+
+      // Function to display a random compliment
+      function displayRandomCompliment() {
+        const compliment = generateRandomCompliment();
+        document.getElementById("complimentDisplay").textContent = compliment;
+      }
+
+      // Attach an event listener to the button
+      document.getElementById("complimentButton").addEventListener("click", displayRandomCompliment);
+    </script>
+  </body>
+</html>
