@@ -1,25 +1,29 @@
 // Array of general compliments
 const generalCompliments = [
-    "You're amazing!",
-    "You're a ray of sunshine!",
-    "You're exceptionally talented!",
-    "You're one of a kind!",
-    "You make the world a better place!",
-    "You're simply the best!",
-    "You're a true inspiration!",
-    "You're so kind-hearted!",
+  "Du er utrolig kreativ!",
+  "Din intelligens imponerer mig!",
+  "Dit smil kan lyse op i ethvert rum!",
+  "Du har en fantastisk sans for humor!",
+  "Din venlighed er smittende!",
+  "Du er en inspiration for andre!",
+  "Dit positive sind er en glæde at være omkring!",
+  "Du har en imponerende arbejdsmoral!",
+  "Din evne til at løse problemer er bemærkelsesværdig!",
+  "Du udstråler en utrolig selvtillid!"
   ];
   
-  // Array of compliments about looks
+  // Array of compliments
   const looksCompliments = [
-    "You look stunning!",
-    "Your style is impeccable!",
-    "You have a great sense of fashion!",
-    "Your smile is contagious!",
-    "You're absolutely beautiful!",
-    "You're handsome!",
-    "You radiate confidence!",
-    "You have an attractive personality!",
+    "Du er virkelig god til at være irriterende!",
+    "Din manglende taktfilter gør livet interessant!",
+    "Du er en sand mester i at teste tålmodigheden!",
+    "Din beskedenhed kender ingen grænser!",
+    "At tale med dig er som at løse en gåde - forvirrende, men nogle gange sjovt!",
+    "Din selvsikkerhed er virkelig imponerende, på en ubehagelig måde!",
+    "Du er som et levende eksempel på Murphy's lov!",
+    "Din evne til at ignorere andres synspunkter er en gave!",
+    "Jeg har aldrig mødt nogen så unik som dig, og det siger jeg ikke som et kompliment!",
+    "Din charme er lige så skarp som en kniv!"
   ];
   
   // Function to generate a random compliment
